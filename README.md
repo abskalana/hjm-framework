@@ -1,1 +1,3 @@
 # hjm-framework
+
+In this project, we use Python to implement the Heath-Jarrow-Morton (HJM) framework for modeling the evolution of forward interest rates. We begin by preprocessing historical interest rate data and applying Principal Component Analysis (PCA) to identify the key risk factors driving rate movements. Using Python libraries, we construct smooth volatility structures with cubic splines and compute the drift terms required for risk-neutral rate simulations. Finally, we perform Monte Carlo simulations of forward rates, enabling the generation of realistic interest rate paths for pricing and risk management applications. In the second lesson, we will use this to price interest rate derivatives.
